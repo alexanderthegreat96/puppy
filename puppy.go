@@ -35,3 +35,7 @@ func TagMe() string {
 func RandomNumber() int {
 	return rand.Intn(100)
 }
+
+func RandomFloat() float64 {
+	return rand.Float64()*5
+}
