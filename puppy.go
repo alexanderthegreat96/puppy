@@ -1,7 +1,8 @@
 package puppy
 
 import (
-	"github.com/alexanderthegreat96/dog"
+	"github.com/alexanderthegreat96/dog",
+	"math/rand"
 )
 
 func Bark() string {
@@ -29,4 +30,8 @@ func BarkAt(s string) string {
 
 func TagMe() string {
 	return "Tagged You!"
+}
+
+func RandomNumber() int {
+	return rand.Intn(100)
 }
