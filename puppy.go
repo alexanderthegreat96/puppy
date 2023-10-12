@@ -22,6 +22,11 @@ func BigBarks() string {
 	return dog.WhenGrownUp(Barks())
 }
 
+// imported BarkAt
+func BarkAt(s string) string {
+	return dog.BarkAt(s)
+}
+
 func TagMe() string {
 	return "Tagged You!"
 }
