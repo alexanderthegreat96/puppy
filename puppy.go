@@ -16,3 +16,8 @@ func Barks() string {
 func BigBark() string {
 	return dog.WhenGrownUp(Bark())
 }
+
+// imported function WhenGrownUp
+func BigBarks() string {
+	return dog.WhenGrownUp(Barks())
+}
