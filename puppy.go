@@ -1,8 +1,9 @@
 package puppy
 
 import (
-	"github.com/alexanderthegreat96/dog",
 	"math/rand"
+
+	"github.com/alexanderthegreat96/dog"
 )
 
 func Bark() string {
@@ -37,5 +38,5 @@ func RandomNumber() int {
 }
 
 func RandomFloat() float64 {
-	return rand.Float64()*5
+	return rand.Float64() * 5
 }
