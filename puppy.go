@@ -21,3 +21,7 @@ func BigBark() string {
 func BigBarks() string {
 	return dog.WhenGrownUp(Barks())
 }
+
+func TagMe() string {
+	return "Tagged You!"
+}
